@@ -1,6 +1,9 @@
 # Overwatch Charcters Build
 
-All about Overwatch Heroes! Click on an image to learn more.
+All about Overwatch Heroes!
+Click on the pictures to learn more about each character! (jk it's just lorem ipsum)
+
+(an MMED-1054 homework. Getting more acquainted with CSS!)
 
 ## Contributing
 
@@ -12,7 +15,7 @@ All about Overwatch Heroes! Click on an image to learn more.
 
 ## Credits
 
-All images copyright by Blizzard
+All images belong to Blizzard and are courtesy of Google Images
 
 ## License
 
