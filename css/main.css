@@ -45,11 +45,12 @@ header {
     position: relative;
     display: inline-block;
     height: 220px ;
-    margin: 10px 8px;
+    margin: 20px 8px;
     background-color: black; 
     text-align: left;
     overflow:hidden;
     cursor: pointer;
+    border: 2px solid black;
 }
 
 .characters li:hover .bumper { height: 200px; }
@@ -75,7 +76,7 @@ height: 150px;
 background-image: url('../img/overwatch_sprites.jpg');
 }
 
-.sprite:hover { background-position-y: -150px !important }
+.sprite:hover { background-position-y: -150px !important; }
 
 #dva {background-position: -150px 0;}
 #mercy {background-position: -300px 0;}
@@ -132,8 +133,6 @@ background-color: rgb(40, 37, 37);
     left: 0;
     background-color: rgba(0, 0, 0, 0.85);  
     background-repeat: no-repeat;
-    background-position: 40px bottom;
-    background-size: 55vh;
 
     z-index: 5000;
 }
@@ -168,26 +167,38 @@ color: rgb(185, 93, 32);
 
 #lightBox {
     background-image: url("../img/reaper_lb_bg.png");
+    background-position: 60px bottom;
+    background-size: 70vh;
 }
 
 #lightBox2 {
     background-image: url("../img/dva_lb_bg.png");
+    background-position: 40px bottom;
+    background-size: 80vh;
 }
 
 #lightBox3 {
     background-image: url("../img/mercy_lb_bg.png");
+    background-position: 50px bottom;
+    background-size: 90vh;
 }
 
 #lightBox4 {
     background-image: url("../img/soldier_lb_bg.png");
+    background-position: 110px bottom;
+    background-size: 60vh;
 }
 
 #lightBox5 {
     background-image: url("../img/zenyatta_lb_bg.png");
+    background-position: 70px bottom;
+    background-size: 70vh;
 }
 
 #lightBox6 {
     background-image: url("../img/bastion_lb_bg.png");
+    background-position: 30px bottom;
+    background-size: 80vh;
 }
 
 /* toggle the lightbox on */
